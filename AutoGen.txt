@@ -1,0 +1,1 @@
+the answer for file1.txt is git actually ignores the tracking of new files created in the AutoGen folder because i have already(before creating AutoGen folder) mention the 'AutoGen/*' statement in the .gitignore file.
