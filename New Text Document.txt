@@ -1,0 +1,22 @@
+If you have already added your SSH key to your GitHub account, you can switch from HTTPS to SSH for your existing repository by changing the remote URL. To do this, you can follow these steps:
+
+Open a terminal and navigate to your local repository directory.
+Run the command git remote -v to see the current remote URL. It should start with https://.
+Run the command git remote set-url origin git@github.com:user/repo.git, where user and repo are the appropriate values for your GitHub username and repository name. This will change the remote URL to use SSH instead of HTTPS1.
+Run the command git push -u origin master to push your changes to the remote repository using SSH. You may need to enter the passphrase for your SSH key if you have set one.
+You can also verify that the remote URL has been changed by running git remote -v again. It should now start with git@github.com. For more information, see this article.
+
+I hope this helps you to connect and push your commits to your remote repository with SSH. If you have any further questions, please feel free to ask. 😊
+
+Database structures and management with MYSQL:
+I’m happy to share that I've successfully completed the 'Database Structures and Management with MySQL course by Meta on Coursera. This course covered a wide range of essential topics in MySQL, From mastering basic commands and operators to advanced concepts like Joins, Group By statements, Virtual tables, Stored Procedures and MySQL functions.
+
+This course not only provided comprehensive theoretical knowledge but also offered practical hands-on experience through weekly labs and tasks. The weekly tasks challenged us to apply what we had learned. It was an opportunity to solve real-world problems using MySQL.
+
+If you're interested in MySQL and database management, I highly recommend this course.
+
+
+ANOTHER POST:
+This course has been an enlightening💡 experience, delving deep into crucial database concepts such as SubQueries, Virtual Tables, Stored Procedures, and many more underlined concepts. The practical labs💻 were truly invaluable, enabling me to not only grasp these concepts but also gain the confidence 💪to apply them effectively in real-world scenarios.
+
+What distinguishes this course is the instructor's exceptional teaching approach📚. I'm genuinely grateful to Meta for curating such outstanding courses that not only educate but help to build up practical skills🔧. Excited for what's next on this remarkable journey! 🔥
